@@ -1,4 +1,4 @@
-package com.rxample;
+package com.example;
 
 public class hello-world
   {
