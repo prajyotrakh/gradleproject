@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+task runHelloWorld(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.example.HelloWorld'
+}
