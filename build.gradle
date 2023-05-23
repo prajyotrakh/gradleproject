@@ -15,7 +15,7 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-task runHelloWorld(type: JavaExec) {
+task runhelloworld(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'com.example.HelloWorld'
+    main = 'com.example.helloworld'
 }
