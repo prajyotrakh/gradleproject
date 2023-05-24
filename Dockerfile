@@ -8,4 +8,4 @@ COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
 # Start NGINX server
-CMD ["nginx", "-g", "daemon off;"
+CMD ["nginx", "-g", "daemon off;"]
