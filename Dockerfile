@@ -1,4 +1,4 @@
-FROM java:8
+FROM java
 WORKDIR /
 ADD /var/jenkins_home/workspace/test-project/build/libs/test-project.jar test-project.jar
 EXPOSE 8081
